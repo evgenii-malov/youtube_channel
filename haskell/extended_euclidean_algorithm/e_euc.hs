@@ -1,3 +1,5 @@
+-- explain why and how extended euclidean algorithm works https://www.youtube.com/watch?v=00osXA62DuI
+
 -- simple 
 
 gcd a b = hgcd a b 1 0 0 1 where hgcd a b x0 y0 x1 y1 = if a `mod` b == 0 then (b,x1,y1) else hgcd b (a `mod` b) x1 y1 (x0-q*x1) (y0-q*y1) where q = a `div` b
