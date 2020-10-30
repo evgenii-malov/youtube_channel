@@ -1,3 +1,4 @@
+# видео на ютубе - https://www.youtube.com/watch?v=607Dy-9YZCY
 from abc import ABC
 from abc import abstractmethod
 
